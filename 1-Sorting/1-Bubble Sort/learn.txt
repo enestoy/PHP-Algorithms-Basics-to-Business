@@ -1,0 +1,32 @@
+Bubble Sort Nedir? 
+
+Bubble Sort, sıralama algoritmalarından biridir ve oldukça basit bir mantığa dayanır. Bu algoritma, listedeki her öğeyi birbiriyle karşılaştırır ve sırasıyla yer değiştirir. Bir dizi içinde sıralama yaparken, her geçişte en büyük (veya en küçük) öğe sona "baloncuk" gibi yükselir. Bu işlem, tüm öğeler sıralanana kadar devam eder.
+
+Bubble Sort'un çalışma prensibi:
+Listedeki öğeleri birbiriyle karşılaştırır.
+Eğer bir öğe, bir sonraki öğeden daha büyükse, bu iki öğe yer değiştirir.
+Bu işlem tüm liste sıralanana kadar devam eder.
+Basit bir örnek:
+Varsayalım ki sıralamak istediğimiz liste şu şekilde: [5, 3, 8, 4, 2]
+
+1. Adım (İlk geçiş):
+   5 ve 3 karşılaştırılır, 5 > 3 olduğu için yer değiştirir: [3, 5, 8, 4, 2]
+   5 ve 8 karşılaştırılır, 5 < 8 olduğu için değişiklik yapılmaz: [3, 5, 8, 4, 2]
+   8 ve 4 karşılaştırılır, 8 > 4 olduğu için yer değiştirir: [3, 5, 4, 8, 2]
+   8 ve 2 karşılaştırılır, 8 > 2 olduğu için yer değiştirir: [3, 5, 4, 2, 8]
+
+2. Adım (İkinci geçiş):
+   3 ve 5 karşılaştırılır, 3 < 5 olduğu için değişiklik yapılmaz: [3, 5, 4, 2, 8]
+   5 ve 4 karşılaştırılır, 5 > 4 olduğu için yer değiştirir: [3, 4, 5, 2, 8]
+   5 ve 2 karşılaştırılır, 5 > 2 olduğu için yer değiştirir: [3, 4, 2, 5, 8]
+
+3. Adım (Üçüncü geçiş):
+   3 ve 4 karşılaştırılır, 3 < 4 olduğu için değişiklik yapılmaz: [3, 4, 2, 5, 8]
+   4 ve 2 karşılaştırılır, 4 > 2 olduğu için yer değiştirir: [3, 2, 4, 5, 8]
+
+4. Adım (Dördüncü geçiş):
+   3 ve 2 karşılaştırılır, 3 > 2 olduğu için yer değiştirir: [2, 3, 4, 5, 8]
+   
+Bu işlemden sonra liste sıralanmış olur ve sıralama sonlanır.
+
+Bubble Sort, basit olmasına rağmen verimli değildir, özellikle büyük veri setlerinde performansı düşük olur. Ortalama zaman karmaşıklığı O(n²) olduğu için genellikle daha hızlı algoritmalar tercih edilir.
