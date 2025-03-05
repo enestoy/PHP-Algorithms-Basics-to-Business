@@ -50,6 +50,7 @@ Array: `[4, 2, 2, 8, 3, 3, 1]`
 - **Worst Case**: O(n + k)
 
 Where:
+
 - **n**: Number of elements in the array
 - **k**: The largest number in the array (i.e., the range of numbers to be sorted)
 

@@ -10,7 +10,7 @@
      - Elements smaller than the pivot go into one subarray.
      - Elements larger than the pivot go into another subarray.
      - The pivot is placed in its correct position in the sorted array.
-     
+
 2. **Sorting the Subarrays**:
    - The same process (pivot selection and partitioning) is recursively applied to the left and right subarrays.
    - This continues until all subarrays contain only a single element.
@@ -27,7 +27,7 @@ Array: `[10, 80, 30, 90, 40, 50, 70]`
    - Elements smaller than `70`: `[10, 30, 40, 50]`
    - Elements larger than `70`: `[80, 90]`
    - Pivot placed correctly: `[10, 30, 40, 50, 70, 80, 90]`
-   
+
 2. **Sorting the Subarrays**:
    - Left subarray: `[10, 30, 40, 50]` → Choose `50` as the pivot, sort the subarray.
    - Right subarray: `[80, 90]` → Choose `90` as the pivot, sort the subarray.

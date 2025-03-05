@@ -26,7 +26,7 @@ Array: `[4, 10, 3, 5, 1]`
 
 1. **Converting to a Max Heap**:
    - The array is rearranged into a max heap: `[10, 5, 3, 4, 1]`
-   
+
 2. **Removing the Largest Element**:
    - The largest element (10) is removed from the heap and placed at the end: `[1, 5, 3, 4]`
    - The heap is restructured: `[5, 4, 3, 1]`

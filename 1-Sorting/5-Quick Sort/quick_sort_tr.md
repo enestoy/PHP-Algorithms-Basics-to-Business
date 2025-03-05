@@ -6,10 +6,10 @@
 
 1. **Pivot Seçimi (Partitioning)**:
    - Öncelikle, diziden bir "pivot" seçilir. Pivot, sıralamayı yapmak için dizinin bir elemanıdır.
-   - Bu pivot etrafında tüm diziyi iki alt diziye böleriz: 
+   - Bu pivot etrafında tüm diziyi iki alt diziye böleriz:
      - Pivot'tan küçük olanlar bir diziye, büyük olanlar diğer diziye yerleştirilir.
      - Pivot, sıralandıktan sonra doğru yerinde olur.
-     
+
 2. **Alt Dizilerin Sıralanması**:
    - Daha sonra, pivot'un her iki tarafındaki alt diziler için aynı işlemler (pivot seçme ve bölme) tekrarlanır.
    - Bu işlem, her bir alt dizi tek elemanlı hale gelene kadar devam eder.
@@ -26,7 +26,7 @@ Dizi: `[10, 80, 30, 90, 40, 50, 70]`
    - 70'ten küçük olan elemanlar: `[10, 30, 40, 50]`
    - 70'ten büyük olan elemanlar: `[80, 90]`
    - Pivot yerinde: `[10, 30, 40, 50, 70, 80, 90]`
-   
+
 2. **Alt Dizilerin Sıralanması**:
    - Sol taraf: `[10, 30, 40, 50]` → Pivot 50 seçilir, sıralama yapılır.
    - Sağ taraf: `[80, 90]` → Pivot 90 seçilir, sıralama yapılır.

@@ -42,6 +42,7 @@ Dizi: `[170, 45, 75, 90, 802, 24, 2, 66]`
 - **En Kötü Durum**: O(nk)
 
 Burada:
+
 - **n**: Dizinin eleman sayısı
 - **k**: Sayıların basamak sayısıdır.
 
@@ -60,4 +61,3 @@ Burada:
 
 - **Dijital verilerin sıralanması**: Özellikle sayılar, tarihsel veriler gibi sıralanabilir büyük veri kümeleriyle çalışırken kullanılır.
 - **Sayısal verilerin hızlı sıralanması**: Rakamlar üzerinde işlem yapan algoritmalar için uygundur.
-

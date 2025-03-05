@@ -23,7 +23,7 @@ Dizi: `[0.42, 0.32, 0.23, 0.51, 0.12, 0.33]`
 
 1. **Kovaları Oluşturma**:
    - Verilen aralık (0 ile 1 arasında) dikkate alınarak 5 tane kova oluşturulabilir.
-   
+
 2. **Elemanları Kovalarına Dağıtma**:
    - Elemanlar şu şekilde dağıtılabilir:
      - Kova 1: `[0.12]`
@@ -51,6 +51,7 @@ Dizi: `[0.42, 0.32, 0.23, 0.51, 0.12, 0.33]`
 - **En Kötü Durum**: O(n^2), eğer her kova tek bir eleman içerirse ve kovalar arasında sıralama yapılıyorsa.
 
 Burada:
+
 - **n**: Dizinin eleman sayısı
 - **k**: Kovaların sayısı (veya dizinin aralığı)
 

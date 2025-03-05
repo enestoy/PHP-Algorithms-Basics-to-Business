@@ -51,6 +51,7 @@ Array: `[0.42, 0.32, 0.23, 0.51, 0.12, 0.33]`
 - **Worst Case**: O(n²) (if all elements end up in the same bucket and require additional sorting)
 
 Where:
+
 - **n**: Number of elements in the array
 - **k**: Number of buckets (or the range of values in the array)
 

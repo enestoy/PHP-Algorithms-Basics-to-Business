@@ -50,6 +50,7 @@ Dizi: `[4, 2, 2, 8, 3, 3, 1]`
 - **En Kötü Durum**: O(n + k)
 
 Burada:
+
 - **n**: Dizinin eleman sayısı
 - **k**: Dizideki en büyük elemanın değeri (yani sıralanacak sayılar arasındaki aralık)
 
@@ -68,4 +69,3 @@ Burada:
 
 - **Sayılar Arasında Sıralama**: Pozitif tamsayılar arasında hızlı sıralama yapmayı gerektiren durumlarda kullanılır.
 - **Dijital Veriler**: Belirli bir aralıktaki sayıları hızlıca sıralamak için kullanılır.
-

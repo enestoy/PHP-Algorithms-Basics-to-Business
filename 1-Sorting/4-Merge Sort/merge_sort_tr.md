@@ -4,14 +4,14 @@
 
 ## Algoritmanın Çalışma Prensibi
 
-1. **Bölme (Divide)**: 
+1. **Bölme (Divide)**:
    - Dizi ortadan ikiye bölünür.
    - Bu işlem, dizi tek elemanlı parçalara ayrılana kadar devam eder.
-   
-2. **Sıralama (Conquer)**: 
+
+2. **Sıralama (Conquer)**:
    - Bölünen her bir parça tek elemanlı hale gelene kadar devam edilir.
    - Tek elemanlı diziler zaten sıralıdır, bu yüzden sıradaki adım, bu dizileri birleştirerek sıralı hale getirmektir.
-   
+
 3. **Birleştirme (Merge)**:
    - İki sıralı dizi, her iki dizinin en küçük elemanlarını karşılaştırarak sıralı bir şekilde birleştirilir.
    - Bu işlem, tüm alt diziler birleşene kadar devam eder.
@@ -20,7 +20,7 @@
 
 Dizi: `[38, 27, 43, 3, 9, 82, 10]`
 
-1. **Bölme**: 
+1. **Bölme**:
    - İlk olarak diziyi iki parçaya ayırırız: `[38, 27, 43]` ve `[3, 9, 82, 10]`.
    - Bu parçalar daha da bölünür: `[38]`, `[27, 43]` ve `[3, 9]`, `[82, 10]` gibi.
 
@@ -29,7 +29,7 @@ Dizi: `[38, 27, 43, 3, 9, 82, 10]`
      - `[27, 43]` sıralanır ve birleşir: `[27, 43]`
      - `[3, 9]` sıralanır ve birleşir: `[3, 9]`
      - `[82, 10]` sıralanır ve birleşir: `[10, 82]`
-     
+
    - Son olarak, bu sıralı diziler birleştirilir: `[3, 9, 10, 27, 38, 43, 82]`
 
 ## Zaman Karmaşıklığı

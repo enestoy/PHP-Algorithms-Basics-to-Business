@@ -42,6 +42,7 @@ Array: `[170, 45, 75, 90, 802, 24, 2, 66]`
 - **Worst Case**: O(nk)
 
 Where:
+
 - **n**: Number of elements in the array
 - **k**: Number of digits in the largest number
 

@@ -25,7 +25,7 @@ Dizi: `[4, 10, 3, 5, 1]`
 
 1. **Heap Yapısına Dönüştürme (Maksimum Heap)**:
    - İlk olarak, dizi bir maksimum heap yapısına dönüştürülür. Dizi şu şekilde olur: `[10, 5, 3, 4, 1]`
-   
+
 2. **En Büyük Elemanı Çıkarma**:
    - En büyük eleman (10) kökten çıkarılır ve dizinin sonuna yerleştirilir: `[1, 5, 3, 4]`
    - Heap düzeni yeniden sağlanır: `[5, 4, 3, 1]`
