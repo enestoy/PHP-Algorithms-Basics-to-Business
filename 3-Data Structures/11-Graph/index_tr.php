@@ -55,9 +55,9 @@ class Graph
     // Graph'ı ekrana yazdır
     public function yazdır()
     {
-        echo "Graph Komşuluk Listesi:\n";
+        echo "Graph Komşuluk Listesi:<br>";
         foreach ($this->komşulukListesi as $düğüm => $komşular) {
-            echo $düğüm . " -> " . implode(", ", $komşular) . "\n";
+            echo $düğüm . " -> " . implode(", ", $komşular) . "<br>";
         }
     }
 }

@@ -73,7 +73,7 @@ class HashTable
                 } else {
                     echo "[Key: " . $values[0] . ", Value: " . $values[1] . "]";
                 }
-                echo "\n";
+                echo "<br>";
             }
         }
     }
@@ -92,7 +92,7 @@ $hashTable->add("Key4", "Value4");
 $hashTable->printTable();
 
 // Retrieve value by key
-echo "Value corresponding to Key2: " . $hashTable->get("Key2") . "\n"; // Outputs Value2
+echo "Value corresponding to Key2: " . $hashTable->get("Key2") . "<br>"; // Outputs Value2
 
 // Delete a key-value pair
 $hashTable->delete("Key2");

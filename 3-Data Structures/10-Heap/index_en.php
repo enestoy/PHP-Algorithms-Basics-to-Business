@@ -114,10 +114,10 @@ $maxHeap->insert(5);
 $maxHeap->printHeap(); // Heap: 30, 20, 15, 10, 5
 
 // Remove and print the root element
-echo "Removed Root: " . $maxHeap->removeRoot() . "\n"; // Removed Root: 30
+echo "Removed Root: " . $maxHeap->removeRoot() . "<br>"; // Removed Root: 30
 $maxHeap->printHeap(); // Heap: 20, 10, 15, 5
 
 // Remove and print the new root element
-echo "Removed Root: " . $maxHeap->removeRoot() . "\n"; // Removed Root: 20
+echo "Removed Root: " . $maxHeap->removeRoot() . "<br>"; // Removed Root: 20
 $maxHeap->printHeap(); // Heap: 15, 10, 5
 ?>

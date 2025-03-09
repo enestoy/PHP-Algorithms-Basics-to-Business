@@ -73,7 +73,7 @@ class HashTable
                 } else {
                     echo "[Anahtar: " . $degerler[0] . ", Değer: " . $degerler[1] . "]";
                 }
-                echo "\n";
+                echo "<br>";
             }
         }
     }
@@ -92,7 +92,7 @@ $hashTablosu->ekle("Anahtar4", "Değer4");
 $hashTablosu->yazdir();
 
 // Anahtar ile değer getirme
-echo "Anahtar2'ye karşılık gelen değer: " . $hashTablosu->getir("Anahtar2") . "\n"; // Değer2 döndürülür
+echo "Anahtar2'ye karşılık gelen değer: " . $hashTablosu->getir("Anahtar2") . "<br>"; // Değer2 döndürülür
 
 // Anahtar silme
 $hashTablosu->sil("Anahtar2");

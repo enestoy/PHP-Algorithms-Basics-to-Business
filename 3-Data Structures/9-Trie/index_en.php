@@ -119,11 +119,11 @@ $trie->insertWord("banana");
 $trie->insertWord("bat");
 
 // Word search examples
-echo "'apple' is in the Trie? " . ($trie->searchWord("apple") ? "Yes" : "No") . "\n"; // Yes
-echo "'app' is in the Trie? " . ($trie->searchWord("app") ? "Yes" : "No") . "\n"; // Yes
-echo "'appl' is in the Trie? " . ($trie->searchWord("appl") ? "Yes" : "No") . "\n"; // No
+echo "'apple' is in the Trie? " . ($trie->searchWord("apple") ? "Yes" : "No") . "<br>"; // Yes
+echo "'app' is in the Trie? " . ($trie->searchWord("app") ? "Yes" : "No") . "<br>"; // Yes
+echo "'appl' is in the Trie? " . ($trie->searchWord("appl") ? "Yes" : "No") . "<br>"; // No
 
 // Prefix search examples
-echo "Words starting with 'app': " . implode(", ", $trie->findWordsStartingWith("app")) . "\n"; // apple, app
-echo "Words starting with 'ba': " . implode(", ", $trie->findWordsStartingWith("ba")) . "\n"; // banana, bat
+echo "Words starting with 'app': " . implode(", ", $trie->findWordsStartingWith("app")) . "<br>"; // apple, app
+echo "Words starting with 'ba': " . implode(", ", $trie->findWordsStartingWith("ba")) . "<br>"; // banana, bat
 ?>

@@ -45,7 +45,7 @@ class Stack
         foreach ($this->stack as $element) {
             echo $element . " "; // Prints all elements in the stack
         }
-        echo "\n";
+        echo "<br>";
     }
 }
 
@@ -57,8 +57,8 @@ $stack->pushElement(30); // Adds 30 to the stack
 
 $stack->printStack(); // Stack: 10 20 30
 
-echo "Popped Element: " . $stack->popElement() . "\n"; // Pops 30
+echo "Popped Element: " . $stack->popElement() . "<br>"; // Pops 30
 $stack->printStack(); // Stack: 10 20
 
-echo "Top Element: " . $stack->topElement() . "\n"; // 20
+echo "Top Element: " . $stack->topElement() . "br>"; // 20
 ?>

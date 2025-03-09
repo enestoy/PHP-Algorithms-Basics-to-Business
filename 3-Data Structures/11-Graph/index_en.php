@@ -55,9 +55,9 @@ class Graph
     // Prints the graph's adjacency list
     public function printGraph()
     {
-        echo "Graph Adjacency List:\n";
+        echo "Graph Adjacency List:<br>";
         foreach ($this->adjacencyList as $node => $neighbors) {
-            echo $node . " -> " . implode(", ", $neighbors) . "\n";
+            echo $node . " -> " . implode(", ", $neighbors) . "<br>";
         }
     }
 }

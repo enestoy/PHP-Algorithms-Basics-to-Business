@@ -156,7 +156,7 @@ echo "İnorder Gezintisi: ";
 $ikiliAramaAğacı->inorderGezinti(); // 20 30 40 50 60 70 80
 
 // Anahtar arama
-echo "\n60 değeri " . ($ikiliAramaAğacı->ara(60) ? "bulundu" : "bulunamadı") . ".\n"; // Bulundu
+echo "\n60 değeri " . ($ikiliAramaAğacı->ara(60) ? "bulundu" : "bulunamadı") . ".<br><br>"; // Bulundu
 
 // Anahtar silme
 $ikiliAramaAğacı->sil(70);

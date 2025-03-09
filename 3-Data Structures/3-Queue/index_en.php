@@ -45,7 +45,7 @@ class Queue
         foreach ($this->queue as $element) {
             echo $element . " "; // Prints all elements in the queue
         }
-        echo "\n";
+        echo "<br>";
     }
 }
 
@@ -57,9 +57,9 @@ $queue->enqueue(30); // Adds 30 to the queue
 
 $queue->printQueue(); // Queue: 10 20 30
 
-echo "Dequeued Element: " . $queue->dequeue() . "\n"; // 10 is dequeued
+echo "Dequeued Element: " . $queue->dequeue() . "<br>"; // 10 is dequeued
 $queue->printQueue(); // Queue: 20 30
 
-echo "Front Element: " . $queue->frontElement() . "\n"; // 20
+echo "Front Element: " . $queue->frontElement() . "<br>"; // 20
 ?>
 

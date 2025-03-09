@@ -119,9 +119,9 @@ $trie->kelimeEkle("armut");
 $trie->kelimeEkle("araba");
 
 // Kelime arama örnekleri
-echo "'elma' kelimesi Trie'de var mı? " . ($trie->kelimeAra("elma") ? "Evet" : "Hayır") . "\n"; // Evet
-echo "'elm' kelimesi Trie'de var mı? " . ($trie->kelimeAra("elm") ? "Evet" : "Hayır") . "\n"; // Hayır
+echo "'elma' kelimesi Trie'de var mı? " . ($trie->kelimeAra("elma") ? "Evet" : "Hayır") . "<br>"; // Evet
+echo "'elm' kelimesi Trie'de var mı? " . ($trie->kelimeAra("elm") ? "Evet" : "Hayır") . "<br>"; // Hayır
 
 // Önek arama örnekleri
-echo "'el' önekiyle başlayan kelimeler: " . implode(", ", $trie->onekleBaslayanKelimeler("el")) . "\n"; // elma, elmas
-echo "'ar' önekiyle başlayan kelimeler: " . implode(", ", $trie->onekleBaslayanKelimeler("ar")) . "\n"; // armut, araba
+echo "'el' önekiyle başlayan kelimeler: " . implode(", ", $trie->onekleBaslayanKelimeler("el")) . "<br>"; // elma, elmas
+echo "'ar' önekiyle başlayan kelimeler: " . implode(", ", $trie->onekleBaslayanKelimeler("ar")) . "<br>"; // armut, araba

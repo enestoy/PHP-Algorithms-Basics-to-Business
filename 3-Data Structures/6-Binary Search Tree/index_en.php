@@ -156,7 +156,7 @@ echo "Inorder Traversal: ";
 $binarySearchTree->inorderTraversal(); // 20 30 40 50 60 70 80
 
 // Search for a key
-echo "\n60 is " . ($binarySearchTree->search(60) ? "found" : "not found") . ".\n"; // Found
+echo "\n60 is " . ($binarySearchTree->search(60) ? "found" : "not found") . ".<br><br>"; // Found
 
 // Delete a key
 $binarySearchTree->delete(70);

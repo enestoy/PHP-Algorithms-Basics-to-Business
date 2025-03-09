@@ -45,7 +45,7 @@ class Yigin
         foreach ($this->yigin as $eleman) {
             echo $eleman . " "; // Yığındaki tüm elemanları yazdırır
         }
-        echo "\n";
+        echo "<br>";
     }
 }
 
@@ -57,8 +57,8 @@ $yigin->elemanEkle(30); // Yığına 30 ekleniyor
 
 $yigin->yiginiYazdir(); // Yığın: 10 20 30
 
-echo "Çıkarılan Eleman: " . $yigin->elemanCikar() . "\n"; // 30 çıkarılır
+echo "Çıkarılan Eleman: " . $yigin->elemanCikar() . "<br>"; // 30 çıkarılır
 $yigin->yiginiYazdir(); // Yığın: 10 20
 
-echo "En Üst Eleman: " . $yigin->enUstEleman() . "\n"; // 20
+echo "En Üst Eleman: " . $yigin->enUstEleman() . "<br>"; // 20
 ?>

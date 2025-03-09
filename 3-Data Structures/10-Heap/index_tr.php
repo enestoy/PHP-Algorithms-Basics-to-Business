@@ -114,9 +114,9 @@ $maxHeap->ekle(5);
 $maxHeap->yazdir(); // Heap: 30, 20, 15, 10, 5
 
 // Kök düğümü çıkar ve yazdır
-echo "Çıkarılan Kök: " . $maxHeap->kokCikar() . "\n"; // Çıkarılan Kök: 30
+echo "Çıkarılan Kök: " . $maxHeap->kokCikar() . "<br>"; // Çıkarılan Kök: 30
 $maxHeap->yazdir(); // Heap: 20, 10, 15, 5
 
 // Yeni kök düğümü çıkar ve yazdır
-echo "Çıkarılan Kök: " . $maxHeap->kokCikar() . "\n"; // Çıkarılan Kök: 20
+echo "Çıkarılan Kök: " . $maxHeap->kokCikar() . "<br>"; // Çıkarılan Kök: 20
 $maxHeap->yazdir(); // Heap: 15, 10, 5

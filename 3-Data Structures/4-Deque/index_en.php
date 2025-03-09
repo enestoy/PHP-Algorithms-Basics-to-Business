@@ -69,7 +69,7 @@ class Deque
         foreach ($this->deque as $element) {
             echo $element . " "; // Prints all elements in the deque
         }
-        echo "\n";
+        echo "<br>";
     }
 }
 
@@ -82,12 +82,12 @@ $deque->addBack(40); // Adds 40 to the back of the deque
 
 $deque->printDeque(); // Deque: 30 10 20 40
 
-echo "Element Removed from Front: " . $deque->removeFront() . "\n"; // 30 is removed
+echo "Element Removed from Front: " . $deque->removeFront() . "<br>"; // 30 is removed
 $deque->printDeque(); // Deque: 10 20 40
 
-echo "Element Removed from Back: " . $deque->removeBack() . "\n"; // 40 is removed
+echo "Element Removed from Back: " . $deque->removeBack() . "<br>"; // 40 is removed
 $deque->printDeque(); // Deque: 10 20
 
-echo "Front Element: " . $deque->frontElement() . "\n"; // 10
-echo "Back Element: " . $deque->backElement() . "\n"; // 20
+echo "Front Element: " . $deque->frontElement() . "<br>"; // 10
+echo "Back Element: " . $deque->backElement() . "<br>"; // 20
 ?>

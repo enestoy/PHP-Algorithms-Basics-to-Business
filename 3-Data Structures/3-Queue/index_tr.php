@@ -45,7 +45,7 @@ class Kuyruk
         foreach ($this->kuyruk as $eleman) {
             echo $eleman . " "; // Kuyruğun tüm elemanlarını yazdırır
         }
-        echo "\n";
+        echo "<br>";
     }
 }
 
@@ -57,8 +57,8 @@ $kuyruk->elemanEkle(30); // Kuyruğa 30 ekleniyor
 
 $kuyruk->kuyruğuYazdir(); // Kuyruk: 10 20 30
 
-echo "Çıkarılan Eleman: " . $kuyruk->elemanCikar() . "\n"; // 10 çıkarılır
+echo "Çıkarılan Eleman: " . $kuyruk->elemanCikar() . "<br>"; // 10 çıkarılır
 $kuyruk->kuyruğuYazdir(); // Kuyruk: 20 30
 
-echo "En Ön Eleman: " . $kuyruk->enOnEleman() . "\n"; // 20
+echo "En Ön Eleman: " . $kuyruk->enOnEleman() . "<br>"; // 20
 ?>

@@ -69,7 +69,7 @@ class Deque
         foreach ($this->deque as $eleman) {
             echo $eleman . " "; // Deque'in tüm elemanlarını yazdırır
         }
-        echo "\n";
+        echo "<br>";
     }
 }
 
@@ -82,12 +82,12 @@ $deque->sondanElemanEkle(40); // Deque'e sondan 40 ekleniyor
 
 $deque->dequeyiYazdir(); // Deque: 30 10 20 40
 
-echo "Başından Çıkarılan Eleman: " . $deque->bastanElemanCikar() . "\n"; // 30 çıkarılır
+echo "Başından Çıkarılan Eleman: " . $deque->bastanElemanCikar() . "<br>"; // 30 çıkarılır
 $deque->dequeyiYazdir(); // Deque: 10 20 40
 
-echo "Sonundan Çıkarılan Eleman: " . $deque->sondanElemanCikar() . "\n"; // 40 çıkarılır
+echo "Sonundan Çıkarılan Eleman: " . $deque->sondanElemanCikar() . "<br>"; // 40 çıkarılır
 $deque->dequeyiYazdir(); // Deque: 10 20
 
-echo "Başındaki Eleman: " . $deque->basondakiEleman() . "\n"; // 10
-echo "Sonundaki Eleman: " . $deque->sondakiEleman() . "\n"; // 20
+echo "Başındaki Eleman: " . $deque->basondakiEleman() . "<br>"; // 10
+echo "Sonundaki Eleman: " . $deque->sondakiEleman() . "<br>"; // 20
 ?>
