@@ -41,7 +41,7 @@ class Graf {
             $ağırlık = $kenar['ağırlık'];
 
             if ($mesafeler[$başlangıç] != INF && $mesafeler[$başlangıç] + $ağırlık < $mesafeler[$bitiş]) {
-                echo "Negatif ağırlıklı döngü tespit edildi.\n";
+                echo "Negatif ağırlıklı döngü tespit edildi.<br>";
                 return;
             }
         }
@@ -65,9 +65,9 @@ $graf->kenarEkle(4, 3, -3);
 $mesafeler = $graf->bellmanFord(0);
 
 if ($mesafeler !== null) {
-    echo "Başlangıç düğümünden diğer düğümlere olan en kısa mesafeler:\n";
+    echo "Başlangıç düğümünden diğer düğümlere olan en kısa mesafeler:<br>";
     for ($i = 0; $i < count($mesafeler); $i++) {
-        echo "Düğüm " . $i . ": " . ($mesafeler[$i] == INF ? "Erişilemiyor" : $mesafeler[$i]) . "\n";
+        echo "Düğüm " . $i . ": " . ($mesafeler[$i] == INF ? "Erişilemiyor" : $mesafeler[$i]) . "<br>";
     }
 }
 

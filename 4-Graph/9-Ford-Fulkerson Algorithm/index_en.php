@@ -76,6 +76,6 @@ $source = 0;
 $sink = 5;
 $totalFlow = fordFulkerson($graph, $source, $sink);
 
-echo "Maximum Flow: " . $totalFlow . "\n";
+echo "Maximum Flow: " . $totalFlow . "<br>";
 
 ?>

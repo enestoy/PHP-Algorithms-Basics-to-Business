@@ -89,7 +89,7 @@ $graf->kenarEkle(4, 5, 9);
 list($mesafe, $yol) = $graf->enKısaYol(0, 4);
 
 // Sonuçları yazdıralım
-echo "En kısa mesafe: " . $mesafe . "\n";
-echo "En kısa yol: " . implode(" -> ", $yol) . "\n";
+echo "En kısa mesafe: " . $mesafe . "<br>";
+echo "En kısa yol: " . implode(" -> ", $yol) . "<br>";
 
 ?>

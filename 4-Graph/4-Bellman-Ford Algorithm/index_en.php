@@ -41,7 +41,7 @@ class Graph {
             $weight = $edge['weight'];
 
             if ($distances[$start] != INF && $distances[$start] + $weight < $distances[$end]) {
-                echo "Negative weight cycle detected.\n";
+                echo "Negative weight cycle detected.<br>";
                 return;
             }
         }
@@ -65,9 +65,9 @@ $graph->addEdge(4, 3, -3);
 $distances = $graph->bellmanFord(0);
 
 if ($distances !== null) {
-    echo "Shortest distances from the start node to other nodes:\n";
+    echo "Shortest distances from the start node to other nodes:<br>";
     for ($i = 0; $i < count($distances); $i++) {
-        echo "Node " . $i . ": " . ($distances[$i] == INF ? "Unreachable" : $distances[$i]) . "\n";
+        echo "Node " . $i . ": " . ($distances[$i] == INF ? "Unreachable" : $distances[$i]) . "<br>";
     }
 }
 

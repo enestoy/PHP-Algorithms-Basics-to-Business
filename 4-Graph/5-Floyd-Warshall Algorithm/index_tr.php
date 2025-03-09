@@ -44,13 +44,13 @@ class Graf {
 
     // Sonuçları yazdırma fonksiyonu
     public function sonuçlarıYazdır() {
-        echo "En kısa mesafeler:\n";
+        echo "En kısa mesafeler:<br>";
         for ($i = 0; $i < $this->düğümSayısı; $i++) {
             for ($j = 0; $j < $this->düğümSayısı; $j++) {
                 if ($this->mesafeler[$i][$j] == INF) {
-                    echo "Düğüm " . $i . " -> Düğüm " . $j . ": Erişilemiyor\n";
+                    echo "Düğüm " . $i . " -> Düğüm " . $j . ": Erişilemiyor<br>";
                 } else {
-                    echo "Düğüm " . $i . " -> Düğüm " . $j . ": " . $this->mesafeler[$i][$j] . "\n";
+                    echo "Düğüm " . $i . " -> Düğüm " . $j . ": " . $this->mesafeler[$i][$j] . "<br>";
                 }
             }
         }

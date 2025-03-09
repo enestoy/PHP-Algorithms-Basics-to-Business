@@ -49,9 +49,9 @@ function primAlgorithm($graph) {
     }
     
     // Print results
-    echo "Minimum Spanning Tree (MST):\n";
+    echo "Minimum Spanning Tree (MST):<br>";
     for ($i = 1; $i < $nodeCount; $i++) {
-        echo "Node $i, parent node: " . $parentNodes[$i] . ", Weight: " . $graph[$parentNodes[$i]][$i] . "\n";
+        echo "Node $i, parent node: " . $parentNodes[$i] . ", Weight: " . $graph[$parentNodes[$i]][$i] . "<br>";
     }
 }
 

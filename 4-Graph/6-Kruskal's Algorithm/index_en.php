@@ -118,16 +118,16 @@ class Graph {
      * @return void
      */
     public function printMST($mst) {
-        echo "Minimum Spanning Tree (MST):\n";
+        echo "Minimum Spanning Tree (MST):<br>";
         foreach ($mst as $edge) {
-            echo "Node " . $edge->start . " -> Node " . $edge->end . " (Weight: " . $edge->weight . ")\n";
+            echo "Node " . $edge->start . " -> Node " . $edge->end . " (Weight: " . $edge->weight . ")<br>";
         }
     }
 }
 
 // Example usage to start the graph:
 $graph = new Graph(5); // A graph with 5 nodes
-echo "The number of nodes in the graph: " . $graph->getNodeCount() . "\n";
+echo "The number of nodes in the graph: " . $graph->getNodeCount() . "<br>";
 
 // Add edges:
 $graph->addEdge("A", "B", 1);

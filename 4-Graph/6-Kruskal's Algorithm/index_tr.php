@@ -118,16 +118,16 @@ class Graf {
      * @return void
      */
     public function mstYazdır($mst) {
-        echo "Minimum Spanning Tree (MST):\n";
+        echo "Minimum Spanning Tree (MST):<br>";
         foreach ($mst as $kenar) {
-            echo "Düğüm " . $kenar->başlangıç . " -> Düğüm " . $kenar->bitiş . " (Ağırlık: " . $kenar->ağırlık . ")\n";
+            echo "Düğüm " . $kenar->başlangıç . " -> Düğüm " . $kenar->bitiş . " (Ağırlık: " . $kenar->ağırlık . ")<br>";
         }
     }
 }
 
 // Grafı başlatmak için örnek kullanım:
 $graf = new Graf(5); // 5 düğümlü bir graf
-echo "Grafın düğüm sayısı: " . $graf->getDüğümSayısı() . "\n";
+echo "Grafın düğüm sayısı: " . $graf->getDüğümSayısı() . "<br>";
 
 // Kenarları ekleyelim:
 $graf->kenarEkle("A", "B", 1);

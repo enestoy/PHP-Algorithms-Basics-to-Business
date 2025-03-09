@@ -44,13 +44,13 @@ class Graph {
 
     // Function to print the results
     public function printResults() {
-        echo "Shortest distances:\n";
+        echo "Shortest distances:<br>";
         for ($i = 0; $i < $this->nodeCount; $i++) {
             for ($j = 0; $j < $this->nodeCount; $j++) {
                 if ($this->distances[$i][$j] == INF) {
-                    echo "Node " . $i . " -> Node " . $j . ": Unreachable\n";
+                    echo "Node " . $i . " -> Node " . $j . ": Unreachable <br>";
                 } else {
-                    echo "Node " . $i . " -> Node " . $j . ": " . $this->distances[$i][$j] . "\n";
+                    echo "Node " . $i . " -> Node " . $j . ": " . $this->distances[$i][$j] . "<br>";
                 }
             }
         }

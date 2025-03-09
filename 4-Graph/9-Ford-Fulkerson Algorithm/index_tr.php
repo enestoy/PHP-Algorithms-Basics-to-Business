@@ -76,6 +76,6 @@ $kaynak = 0;
 $hedef = 5;
 $toplamAkış = fordFulkerson($graf, $kaynak, $hedef);
 
-echo "Maksimum Akış: " . $toplamAkış . "\n";
+echo "Maksimum Akış: " . $toplamAkış . "<br>";
 
 ?>

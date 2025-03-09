@@ -89,7 +89,7 @@ $graph->addEdge(4, 5, 9);
 list($distance, $path) = $graph->shortestPath(0, 4);
 
 // Print the results
-echo "Shortest distance: " . $distance . "\n";
-echo "Shortest path: " . implode(" -> ", $path) . "\n";
+echo "Shortest distance: " . $distance . "<br>";
+echo "Shortest path: " . implode(" -> ", $path) . "<br>";
 
 ?>

@@ -49,9 +49,9 @@ function primAlgoritmasi($graf) {
     }
     
     // Sonuçları yazdır
-    echo "Minimum Yayılma Ağacı (MST):\n";
+    echo "Minimum Yayılma Ağacı (MST):<br>";
     for ($i = 1; $i < $düğümSayisi; $i++) {
-        echo "Düğüm $i, ebeveyn düğüm: " . $ebeveynDüğümleri[$i] . ", Ağırlık: " . $graf[$ebeveynDüğümleri[$i]][$i] . "\n";
+        echo "Düğüm $i, ebeveyn düğüm: " . $ebeveynDüğümleri[$i] . ", Ağırlık: " . $graf[$ebeveynDüğümleri[$i]][$i] . "<br>";
     }
 }
 
