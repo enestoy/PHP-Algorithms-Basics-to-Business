@@ -1,4 +1,4 @@
-# PHP & Algoritmalar: Temellerden İşletmeye
+# PHP Algorithms: Basics to Business
 
 ## 📌 Proje Hakkında
 
