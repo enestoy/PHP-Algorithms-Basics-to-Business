@@ -23,131 +23,131 @@ Bu repoda her algoritma dört dosya ile ele alınmaktadır:
 
 ### 1. Sıralama (Sorting) Algoritmaları
 
-•Bubble Sort
-•Selection Sort
-•Insertion Sort
-•Merge Sort
-•Quick Sort
-•Heap Sort
-•Radix Sort
-•Counting Sort
-•Bucket Sort
+-Bubble Sort
+-Selection Sort
+-Insertion Sort
+-Merge Sort
+-Quick Sort
+-Heap Sort
+-Radix Sort
+-Counting Sort
+-Bucket Sort
 
 ### 2. Arama (Searching) Algoritmaları
 
-• Linear Search
-• Binary Search
-• Jump Search
-• Exponential Search
+- Linear Search
+- Binary Search
+- Jump Search
+- Exponential Search
 
 ### 3. Veri Yapıları Algoritmaları
 
-• Linked List: Tekli, Çiftli, Döngüsel
-• Stack (Yığın)
-• Queue (Kuyruk)
-• Deque (Çift Yönlü Kuyruk)
-• Hashing ve Hash Tabloları
-• Binary Search Tree (BST)
-• AVL Tree (Self-balancing Binary Search Tree)
-• Red-Black Tree
-• Trie
-• Heap (Min-Heap, Max-Heap)
-• Graph Veri Yapıları (Adjacency List, Matrix)
+- Linked List: Tekli, Çiftli, Döngüsel
+- Stack (Yığın)
+- Queue (Kuyruk)
+- Deque (Çift Yönlü Kuyruk)
+- Hashing ve Hash Tabloları
+- Binary Search Tree (BST)
+- AVL Tree (Self-balancing Binary Search Tree)
+- Red-Black Tree
+- Trie
+- Heap (Min-Heap, Max-Heap)
+- Graph Veri Yapıları (Adjacency List, Matrix)
 
 ### 4. Graf Algoritmaları
 
-• Depth-First Search (DFS)
-• Breadth-First Search (BFS)
-• Dijkstra's Algorithm (Kısa yol algoritması)
-• Bellman-Ford Algorithm
-• Floyd-Warshall Algorithm (Tüm çiftler arası en kısa yol)
-• Kruskal's Algorithm (MST - Minimum Spanning Tree)
-• Prim's Algorithm (MST)
-• Topological Sorting
-• Ford-Fulkerson Algorithm (Max Flow)
+- Depth-First Search (DFS)
+- Breadth-First Search (BFS)
+- Dijkstra's Algorithm (Kısa yol algoritması)
+- Bellman-Ford Algorithm
+- Floyd-Warshall Algorithm (Tüm çiftler arası en kısa yol)
+- Kruskal's Algorithm (MST - Minimum Spanning Tree)
+- Prim's Algorithm (MST)
+- Topological Sorting
+- Ford-Fulkerson Algorithm (Max Flow)
 
 ### 5. Dinamik Programlama Algoritmaları
 
-• Fibonacci Sequence
-• Knapsack Problem
-• Longest Common Subsequence (LCS)
-• Longest Increasing Subsequence (LIS)
-• Coin Change Problem
-• Matrix Chain Multiplication
-• Rod Cutting Problem
-• Edit Distance (Levenshtein Distance)
+- Fibonacci Sequence
+- Knapsack Problem
+- Longest Common Subsequence (LCS)
+- Longest Increasing Subsequence (LIS)
+- Coin Change Problem
+- Matrix Chain Multiplication
+- Rod Cutting Problem
+- Edit Distance (Levenshtein Distance)
 
 ### 6. Böl ve Fethet (Divide and Conquer) Algoritmaları
 
-• Merge Sort
-• Quick Sort
-• Binary Search
-• Strassen's Matrix Multiplication
+- Merge Sort
+- Quick Sort
+- Binary Search
+- Strassen's Matrix Multiplication
 
 ### 7. Geri İzleme (Backtracking) Algoritmaları
 
-• N-Queens Problem
-• Subset Sum Problem
-• Sudoku Solver
-• Graph Coloring
-• Hamiltonian Path
+- N-Queens Problem
+- Subset Sum Problem
+- Sudoku Solver
+- Graph Coloring
+- Hamiltonian Path
 
 ### 8. Greedy Algoritmalar
 
-• Fractional Knapsack Problem
-• Huffman Coding
-• Activity Selection Problem
-• Job Scheduling Problem
-• Prim’s Algorithm (MST)
+- Fractional Knapsack Problem
+- Huffman Coding
+- Activity Selection Problem
+- Job Scheduling Problem
+- Prim’s Algorithm (MST)
 
 ### 9. İleri Seviye Algoritmalar
 
-• KMP (Knuth-Morris-Pratt) String Matching
-• Rabin-Karp Algorithm
-• Boyer-Moore Algorithm
-• Floyd’s Cycle-Finding Algorithm (Tortoise and Hare)
-• Topological Sort
-• Sieve of Eratosthenes
-• Union-Find (Disjoint Set)
-• Turing Machines
+- KMP (Knuth-Morris-Pratt) String Matching
+- Rabin-Karp Algorithm
+- Boyer-Moore Algorithm
+- Floyd’s Cycle-Finding Algorithm (Tortoise and Hare)
+- Topological Sort
+- Sieve of Eratosthenes
+- Union-Find (Disjoint Set)
+- Turing Machines
   
 ### 10. Matematiksel Algoritmalar
 
-• Greatest Common Divisor (GCD) - Euclidean Algorithm
-• Sieve of Eratosthenes (Prime Number Generation)
-• Fast Exponentiation
-• Fermat’s Little Theorem
-• Modular Arithmetic Algorithms
-• Chinese Remainder Theorem
+- Greatest Common Divisor (GCD) - Euclidean Algorithm
+- Sieve of Eratosthenes (Prime Number Generation)
+- Fast Exponentiation
+- Fermat’s Little Theorem
+- Modular Arithmetic Algorithms
+- Chinese Remainder Theorem
 
 ### 11. String Matching ve Manipülasyon Algoritmaları
 
-• Rabin-Karp Algorithm
-• KMP (Knuth-Morris-Pratt) Algorithm
-• Boyer-Moore Algorithm
-• Z-Algorithm
+- Rabin-Karp Algorithm
+- KMP (Knuth-Morris-Pratt) Algorithm
+- Boyer-Moore Algorithm
+- Z-Algorithm
 
 ### 12. Çok Değişkenli (Multi-Variable) Optimizasyon
 
-• Simulated Annealing
-• Genetic Algorithms
-• Ant Colony Optimization
+- Simulated Annealing
+- Genetic Algorithms
+- Ant Colony Optimization
   
 ### 13. Benzerlik ve Kümeleme Algoritmaları
 
-• K-Means Clustering
-• Hierarchical Clustering
-• Nearest Neighbors
-• DBSCAN
+- K-Means Clustering
+- Hierarchical Clustering
+- Nearest Neighbors
+- DBSCAN
 
 ### 14. Diğer Önemli Algoritmalar  
 
-• Bloom Filter
-• Reservoir Sampling
-• Karnaugh Map (Boolean Minimization)
-• Consensus Algorithms (Paxos, Raft, etc.)
-• MapReduce
-• Monte Carlo Methods
+- Bloom Filter
+- Reservoir Sampling
+- Karnaugh Map (Boolean Minimization)
+- Consensus Algorithms (Paxos, Raft, etc.)
+- MapReduce
+- Monte Carlo Methods
 
 ## 🚀 İşletmelerin Talep Ettiği Algoritmalar  
 
