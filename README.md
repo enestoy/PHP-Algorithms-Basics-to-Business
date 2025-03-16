@@ -102,9 +102,6 @@ Bu repoda her algoritma dört dosya ile ele alınmaktadır:
 
 ### 9. İleri Seviye Algoritmalar
 
-- KMP (Knuth-Morris-Pratt) String Matching
-- Rabin-Karp Algorithm
-- Boyer-Moore Algorithm
 - Floyd’s Cycle-Finding Algorithm (Tortoise and Hare)
 - Topological Sort
 - Sieve of Eratosthenes
@@ -122,8 +119,8 @@ Bu repoda her algoritma dört dosya ile ele alınmaktadır:
 
 ### 11. String Matching ve Manipülasyon Algoritmaları
 
-- Rabin-Karp Algorithm
 - KMP (Knuth-Morris-Pratt) Algorithm
+- Rabin-Karp Algorithm
 - Boyer-Moore Algorithm
 - Z-Algorithm
 
