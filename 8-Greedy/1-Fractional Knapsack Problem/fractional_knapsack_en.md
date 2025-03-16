@@ -1,40 +1,40 @@
-# Fractional Knapsack Problemi
+# Fractional Knapsack Problem
 
-## Problem Tanımı
+## Problem Definition
 
-Fractional Knapsack problemi, sınırlı kapasiteye sahip bir çantaya, verilen ağırlık ve değer bilgilerinin doğrultusunda en yüksek toplam değeri elde edecek şekilde eşya yerleştirme problemidir. Ancak bu problemde eşyalar bölünebilir, yani bir eşyanın tamamını almak yerine, belirli bir kısmını da çantaya koyabiliriz.
+The Fractional Knapsack problem is about placing items in a knapsack with a limited capacity to maximize the total value. In this problem, items are divisible, meaning we can take a fraction of an item instead of the whole.
 
-## Greedy Yaklaşımı
+## Greedy Approach
 
-Fractional Knapsack problemi, açgözlü (greedy) algoritmalarla çözülebilen bir problemdir. Açgözlü yaklaşım, her adımda en iyi görünen seçimi yaparak en yüksek toplam değeri elde etmeye çalışır.
+The Fractional Knapsack problem can be solved using greedy algorithms. The greedy approach makes the best possible choice at each step to achieve the highest total value.
 
-### Adımlar
+### Steps
 
-1. **Eşyaları Sıralama:** Eşyalar, değer/ağırlık oranına göre azalan şekilde sıralanır.
-2. **Eşyaları Seçme:** Sıralanan eşyalardan en yüksek değer/ağırlık oranına sahip olanlar öncelikli olarak çantaya eklenir.
-3. **Kapasite Kontrolü:** Çantanın kapasitesine göre eşyaların tamamı veya bir kısmı eklenir.
-4. **Sonuç:** Çantanın kapasitesi dolana kadar bu adımlar tekrarlanır ve maksimum değer elde edilir.
+1. **Sorting Items:** Items are sorted in decreasing order based on their value/weight ratio.
+2. **Selecting Items:** Items with the highest value/weight ratio are prioritized and added to the knapsack.
+3. **Capacity Check:** Items are added fully or partially based on the remaining knapsack capacity.
+4. **Result:** The process continues until the knapsack is full, yielding the maximum possible value.
 
-## Örnek Senaryo
+## Example Scenario
 
-- **Eşyalar:**
-  - Eşya 1: Ağırlık = 10 kg, Değer = 60
-  - Eşya 2: Ağırlık = 20 kg, Değer = 100
-  - Eşya 3: Ağırlık = 30 kg, Değer = 120
-- **Çanta Kapasitesi:** 50 kg
+- **Items:**
+  - Item 1: Weight = 10 kg, Value = 60
+  - Item 2: Weight = 20 kg, Value = 100
+  - Item 3: Weight = 30 kg, Value = 120
+- **Knapsack Capacity:** 50 kg
 
-### Çözüm Adımları
+### Solution Steps
 
-1. Değer/ağırlık oranlarını hesaplayalım:
-   - Eşya 1: 60/10 = 6
-   - Eşya 2: 100/20 = 5
-   - Eşya 3: 120/30 = 4
-2. En yüksek oranlı eşyadan başlayarak çantaya ekleyelim:
-   - Eşya 1 tamamen eklenir (10 kg, 60 değer)
-   - Eşya 2 tamamen eklenir (20 kg, 100 değer)
-   - Eşya 3’ten 20 kg eklenir (20 kg, 80 değer)
-3. Toplam değer = 60 + 100 + 80 = **240**
+1. Calculate the value/weight ratios:
+   - Item 1: 60/10 = 6
+   - Item 2: 100/20 = 5
+   - Item 3: 120/30 = 4
+2. Add items to the knapsack starting with the highest ratio:
+   - Item 1 is fully added (10 kg, 60 value)
+   - Item 2 is fully added (20 kg, 100 value)
+   - 20 kg of Item 3 is added (20 kg, 80 value)
+3. Total value = 60 + 100 + 80 = **240**
 
-## Sonuç
+## Conclusion
 
-Fractional Knapsack problemi, açgözlü algoritmalar kullanılarak optimal çözümle sonuçlanan bir problemdir. Eşyaların bölünebilir olması, greedy yaklaşımın her adımda en iyi seçimi yaparak en yüksek değeri elde etmesini sağlar.
+The Fractional Knapsack problem can be optimally solved using greedy algorithms. Since items are divisible, the greedy approach ensures the best choice at each step to maximize the total value.

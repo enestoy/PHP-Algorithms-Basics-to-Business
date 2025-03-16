@@ -81,9 +81,9 @@ $kodlar = [];
 huffmanKodlariniOlustur($kok, "", $kodlar);
 
 // Sonuçları ekrana yazdır
-echo "Huffman Kodları:\n";
+echo "Huffman Kodları:<br>";
 foreach ($kodlar as $karakter => $kod) {
-    echo "$karakter: $kod\n";
+    echo "$karakter: $kod<br>";
 }
 
 ?>

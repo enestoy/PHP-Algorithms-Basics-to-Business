@@ -48,7 +48,7 @@ $etkinlikler = [
 
 $sonuc = etkinlikSecimi($etkinlikler);
 
-echo "Seçilen Etkinlikler:\n";
+echo "Seçilen Etkinlikler:<br>";
 foreach ($sonuc as $index => $etkinlik) {
     echo "Etkinlik ".($index+1).": Başlangıç = {$etkinlik->baslangic}, Bitiş = {$etkinlik->bitis}\n<br>";
 }
